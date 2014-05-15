@@ -1,0 +1,39 @@
+[11-Jan-2014 21:07:54 Europe/Bucharest] PHP Warning:  Missing argument 2 for Client::client_select_generic(), called in /home/coliseum/public_html/work/test/index.php on line 27 and defined in /home/coliseum/public_html/work/core/classes/client.php on line 13
+[11-Jan-2014 22:06:10 Europe/Bucharest] PHP Warning:  Missing argument 2 for Client::client_select_generic(), called in /home/coliseum/public_html/work/test/index.php on line 27 and defined in /home/coliseum/public_html/work/core/classes/client.php on line 13
+[11-Jan-2014 22:26:58 Europe/Bucharest] PHP Warning:  Missing argument 2 for Client::client_select_generic(), called in /home/coliseum/public_html/work/test/index.php on line 27 and defined in /home/coliseum/public_html/work/core/classes/client.php on line 13
+[12-Jan-2014 17:21:31 Europe/Bucharest] PHP Warning:  Missing argument 2 for Client::client_select_generic(), called in /home/coliseum/public_html/work/test/index.php on line 27 and defined in /home/coliseum/public_html/work/core/classes/client.php on line 13
+[12-Jan-2014 17:21:41 Europe/Bucharest] PHP Warning:  Missing argument 2 for Client::client_select_generic(), called in /home/coliseum/public_html/work/test/index.php on line 27 and defined in /home/coliseum/public_html/work/core/classes/client.php on line 13
+[12-Jan-2014 17:21:46 Europe/Bucharest] PHP Warning:  Missing argument 2 for Client::client_select_generic(), called in /home/coliseum/public_html/work/test/index.php on line 27 and defined in /home/coliseum/public_html/work/core/classes/client.php on line 13
+[13-Jan-2014 16:11:35 Europe/Bucharest] PHP Fatal error:  Call to undefined method General::seoUrl() in /home/coliseum/public_html/work/test/product-group.php on line 38
+[13-Jan-2014 16:28:00 Europe/Bucharest] PHP Notice:  Undefined index: product_group_id in /home/coliseum/public_html/work/test/products.php on line 27
+[13-Jan-2014 16:33:42 Europe/Bucharest] PHP Notice:  Undefined variable: vals in /home/coliseum/public_html/work/test/products.php on line 28
+[13-Jan-2014 16:35:04 Europe/Bucharest] PHP Notice:  Undefined variable: vals in /home/coliseum/public_html/work/test/products.php on line 27
+[13-Jan-2014 16:35:04 Europe/Bucharest] PHP Notice:  Undefined index:  in /home/coliseum/public_html/work/test/products.php on line 27
+[13-Jan-2014 16:35:33 Europe/Bucharest] PHP Warning:  Missing argument 2 for Client::client_select_generic(), called in /home/coliseum/public_html/work/test/index.php on line 27 and defined in /home/coliseum/public_html/work/core/classes/client.php on line 13
+[13-Jan-2014 16:35:38 Europe/Bucharest] PHP Notice:  Undefined variable: vals in /home/coliseum/public_html/work/test/products.php on line 27
+[13-Jan-2014 16:35:38 Europe/Bucharest] PHP Notice:  Undefined index:  in /home/coliseum/public_html/work/test/products.php on line 27
+[13-Jan-2014 16:36:17 Europe/Bucharest] PHP Notice:  Undefined variable: vals in /home/coliseum/public_html/work/test/products.php on line 27
+[13-Jan-2014 16:36:17 Europe/Bucharest] PHP Notice:  Undefined index:  in /home/coliseum/public_html/work/test/products.php on line 27
+[13-Jan-2014 16:36:18 Europe/Bucharest] PHP Notice:  Undefined variable: vals in /home/coliseum/public_html/work/test/products.php on line 27
+[13-Jan-2014 16:36:18 Europe/Bucharest] PHP Notice:  Undefined index:  in /home/coliseum/public_html/work/test/products.php on line 27
+[13-Jan-2014 16:36:18 Europe/Bucharest] PHP Notice:  Undefined variable: vals in /home/coliseum/public_html/work/test/products.php on line 27
+[13-Jan-2014 16:36:18 Europe/Bucharest] PHP Notice:  Undefined index:  in /home/coliseum/public_html/work/test/products.php on line 27
+[13-Jan-2014 16:36:21 Europe/Bucharest] PHP Notice:  Undefined variable: vals in /home/coliseum/public_html/work/test/products.php on line 27
+[13-Jan-2014 16:36:21 Europe/Bucharest] PHP Notice:  Undefined index:  in /home/coliseum/public_html/work/test/products.php on line 27
+[13-Jan-2014 16:36:22 Europe/Bucharest] PHP Notice:  Undefined variable: vals in /home/coliseum/public_html/work/test/products.php on line 27
+[13-Jan-2014 16:36:22 Europe/Bucharest] PHP Notice:  Undefined index:  in /home/coliseum/public_html/work/test/products.php on line 27
+[13-Jan-2014 16:36:59 Europe/Bucharest] PHP Notice:  Undefined variable: vals in /home/coliseum/public_html/work/test/products.php on line 27
+[13-Jan-2014 16:36:59 Europe/Bucharest] PHP Notice:  Undefined index:  in /home/coliseum/public_html/work/test/products.php on line 27
+[13-Jan-2014 16:36:59 Europe/Bucharest] PHP Notice:  Undefined variable: vals in /home/coliseum/public_html/work/test/products.php on line 27
+[13-Jan-2014 16:36:59 Europe/Bucharest] PHP Notice:  Undefined index:  in /home/coliseum/public_html/work/test/products.php on line 27
+[13-Jan-2014 16:36:59 Europe/Bucharest] PHP Notice:  Undefined variable: vals in /home/coliseum/public_html/work/test/products.php on line 27
+[13-Jan-2014 16:36:59 Europe/Bucharest] PHP Notice:  Undefined index:  in /home/coliseum/public_html/work/test/products.php on line 27
+[13-Jan-2014 16:37:00 Europe/Bucharest] PHP Notice:  Undefined variable: vals in /home/coliseum/public_html/work/test/products.php on line 27
+[13-Jan-2014 16:37:00 Europe/Bucharest] PHP Notice:  Undefined index:  in /home/coliseum/public_html/work/test/products.php on line 27
+[13-Jan-2014 16:38:30 Europe/Bucharest] PHP Warning:  Missing argument 2 for Client::client_select_generic(), called in /home/coliseum/public_html/work/test/index.php on line 27 and defined in /home/coliseum/public_html/work/core/classes/client.php on line 13
+[13-Jan-2014 16:38:32 Europe/Bucharest] PHP Warning:  Missing argument 2 for Client::client_select_generic(), called in /home/coliseum/public_html/work/test/index.php on line 27 and defined in /home/coliseum/public_html/work/core/classes/client.php on line 13
+[13-Jan-2014 16:38:37 Europe/Bucharest] PHP Notice:  Undefined variable: vals in /home/coliseum/public_html/work/test/products.php on line 27
+[13-Jan-2014 16:38:37 Europe/Bucharest] PHP Notice:  Undefined index:  in /home/coliseum/public_html/work/test/products.php on line 27
+[13-Jan-2014 16:38:37 Europe/Bucharest] PHP Notice:  Undefined index: product_group_id in /home/coliseum/public_html/work/test/products.php on line 29
+[13-Jan-2014 16:39:10 Europe/Bucharest] PHP Notice:  Undefined index: product_group_id in /home/coliseum/public_html/work/test/products.php on line 29
+[13-Jan-2014 16:39:11 Europe/Bucharest] PHP Notice:  Undefined index: product_group_id in /home/coliseum/public_html/work/test/products.php on line 29
