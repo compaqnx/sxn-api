@@ -2,7 +2,7 @@
 class General{
 	
 	private $db;
-
+	
 	public function __construct($database) {
 	    $this->db = $database;
 	}
@@ -44,6 +44,25 @@ class General{
 		}
 	}
 	
+	public function modules_config_db($filter) {
+			
+		$query = $this->db->prepare("SELECT $filter FROM `modules`");
+						
+		try{
+			$query->execute();
+			$res = $query->fetch();
+			
+			if ( $query->rowCount() != 0 )
+				return $res[0];
+			else
+				return 0;
+						
+		}catch(PDOException $e){
+			die($e->getMessage());
+			return 0;
+		}
+	}
+	
 	public function redirect(){
 	}
 	
@@ -66,6 +85,10 @@ class General{
 		}
 		
 		return $newpath;
+	}
+	
+	public function clear_spaces($content){
+		return str_replace(" ", "-",$content);
 	}
 	
 	function seoUrl($string) {

@@ -20,7 +20,7 @@ $username 	= htmlentities($user['username']);
 		<h2> <a href="<?=BASE_URL?>"><?=CATALOG_LINK?></a> </h2>
 		
 		<!-- featured products div -->
-		<?php if ( $general->global_config_db('promotions') == 1 ) { ?>
+		<?php if ( $general->modules_config_db('promo') == 1 ) { ?>
 			<h3><?=PROMOTIONAL_PRODUCTS_BROWSE?></h3>
 			<?php include "modules/products/promo.php"; ?>
 		<?php } ?>

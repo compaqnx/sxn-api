@@ -1,5 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
+@import url("blocks.css");
 
 body{
 	font: 0.9em Tahoma, Verdana, Arial;
@@ -20,7 +21,7 @@ h2{
 	font-size:16px;
 }
 
-h4{
+h1,h2,h3,h4{
 	margin: 0;
 }
 
@@ -44,48 +45,9 @@ hr{
 	background-color: #fff;
 }
 
-#container{
-	width: 1000px;
-	padding: 5px;
-	background: #fff;
-	margin: 10px auto 0 auto;
-	min-height: 300px;
-}
-#container #content{
-	float:left;
-	width:76%;
-	margin-left:5px;
-}
-
-#container #left {
-	float:left;
-	width:19%;
-	padding:7px;
-	margin:5px;
-	border:1px solid #CCC;
-}
-
-#profile_picture{
-	width: 239px;
-	padding: 0 30px 0 0;
-	float: left;
-	border-right: 1px solid #ddd;
-}
-
-#profile_picture img{
-	width: 240px;
-}
-
-#personal_info{
-	width: 700px;
-	padding: 0 0 0 30px;
-	float: left;
-}
-
-#product-frame{
-	border:1px solid #999;
-	padding:2px;
-	margin-bottom:4px;
+textarea{
+	width: 500px;
+	height: 150px;
 }
 
 .obs{
@@ -97,16 +59,10 @@ hr{
 	clear: both;
 }
 
-textarea{
-	width: 500px;
-	height: 150px;
-}
-
 .list{
 	width:98%;
 	border:1px solid #CCC;
 	padding:5px;
 	margin-bottom:5px;
 }
-
 

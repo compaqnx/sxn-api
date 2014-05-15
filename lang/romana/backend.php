@@ -69,6 +69,9 @@ define('TITLE_CHANGE_PSWD', 'Schimbare parola');
 define('TITLE_ALL_USERS', 'Toti utilizatorii inregistrati');
 define('TITLE_PROMO', 'Produse promotionale');
 define('TITLE_LATEST', 'Ultimele produse adaugate');
+define('TITLE_PRODUCT_DESCRIPTION', 'Descriere produs');
+
+
 define('NO_IMAGE', 'Imaginea nu este valabila');
 define('WELCOME_GUEST', 'Bine ai venit! <br /> Te invitam sa te inregistrezi / autentifici!');
 

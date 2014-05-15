@@ -14,33 +14,33 @@ Include html header
 		<div id="header">
 			<?php include 'includes/top.php'; ?>
 		</div>
+		
+		<?php if ( $general->global_config_db('main_menu') == 1 ) { ?>
 		<div id="menu">
-			<?php include 'includes/menu/menu.php'; ?>
+			<?php require_once('includes/menu/menu.php'); ?>
 		</div>
+		<?php } ?>
+		
 		<div id="clear"></div>
 		
+		<div id="wrap">
+
 		<?php if ( $general->global_config_db('layout') == "2c" ) { ?>
 			<div id="left">
-				Left
+				<?php require_once(DIR_TEMPLATE . $template . "/layout/left.php"); ?>
+			</div>
+		<?php } ?>
+		
+		<?php if ( $general->global_config_db('layout') == "3c" ) { ?>
+			<div id="left">
+				<?php require_once(DIR_TEMPLATE . $template . "/layout/right.php"); ?>
 			</div>
 		<?php } ?>
 		
 		<div id="content">
-					
-		<!-- featured products div -->
-		<?php if ( $general->global_config_db('promotions') == 1 ) { ?>
-			<?php include "modules/products/promo.php"; ?>
-		<?php } ?>
-		<!-- end featured products div -->
-
-		<!-- latest products div -->
-		<?php if ( $general->global_config_db('latest') == 1 ) { ?>
-			<?php include "modules/products/latest.php"; ?>
-		<?php } ?>
-		<!-- latest products div -->
-		
+			<?php require_once(DIR_TEMPLATE . $template . "/layout/content.php"); ?>		
 		</div> <!-- end content div -->
-				
+		</div>
 		
 	</div>
 </body>

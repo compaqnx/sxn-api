@@ -91,4 +91,7 @@ if ($general->logged_in() === true)  {
 	$user 		= $users->userdata($user_id);
 }
 
+//~ Store template
+$template = $general->global_config_db('template');
+
 ob_start();

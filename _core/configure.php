@@ -26,4 +26,5 @@ define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
 define('DB_DATABASE', 'auto');
 define('DB_PREFIX', '');
+
 ?>
