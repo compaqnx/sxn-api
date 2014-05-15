@@ -12,6 +12,7 @@ body{
 
 a{
 	color:blue;
+	text-decoration:none;
 }
 
 h1{
@@ -64,5 +65,8 @@ textarea{
 	border:1px solid #CCC;
 	padding:5px;
 	margin-bottom:5px;
+}
+.buton{
+	margin:5px 15px 5px 5px;
 }
 

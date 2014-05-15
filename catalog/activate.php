@@ -6,12 +6,13 @@ $general->logged_in_protect();
 <!--
 Include html header
 -->
-<?php $title = TITLE_ACTIVATE; include 'includes/header.php' ?>
+<?php $title = TITLE_ACTIVATE; ?>
+<?php require_once(DIR_TEMPLATE . $template . "/layout/header.php"); ?>
 
 <body>	
 	<div id="container">
-	<?php include 'includes/menu/menu.php'; ?>
-		<h1>Activate your account</h1>
+	<?php require_once(DIR_TEMPLATE . $template . "/menu/menu.php"); ?>
+		<h1><?=ACCOUNT_ACTIVATION?></h1>
 
     	<?php
         

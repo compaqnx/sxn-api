@@ -5,14 +5,15 @@ $general->logged_out_protect();
 //~ storing the user's username after clearning for any html tags.
 $username 	= htmlentities($user['username']);
 ?>
-<?php $title = 'Pagina 1'; include 'includes/header.php' ?>
+<?php $title = isset($username) ? $username.TITLE_ACCOUNT : "&raquo;".TITLE_ACCOUNT; ?>
+<?php require_once(DIR_TEMPLATE . $template . "/layout/header.php"); ?>
 <body>	
 	<div id="container">
 		<div id="header">
-			<?php include 'includes/top.php'; ?>
+			<?php require_once(DIR_TEMPLATE . $template . "/layout/top.php"); ?>
 		</div>
 		<div id="menu">
-			<?php include 'includes/menu/menu.php'; ?>
+			<?php require_once(DIR_TEMPLATE . $template . "/menu/menu.php"); ?>
 		</div>
 		<div id="clear"></div>
 		<div id="content">

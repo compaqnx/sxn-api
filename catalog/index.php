@@ -7,17 +7,18 @@ $username 	= htmlentities($user['username']);
 <!--
 Include html header
 -->
-<?php $title = TITLE_INDEX; include 'includes/header.php' ?>
+<?php $title = TITLE_INDEX; ?>
+<?php require_once(DIR_TEMPLATE . $template . "/layout/header.php"); ?>
 
 <body>	
 	<div id="container">
 		<div id="header">
-			<?php include 'includes/top.php'; ?>
+			<?php require_once(DIR_TEMPLATE . $template . "/layout/top.php"); ?>
 		</div>
 		
 		<?php if ( $general->global_config_db('main_menu') == 1 ) { ?>
 		<div id="menu">
-			<?php require_once('includes/menu/menu.php'); ?>
+			<?php require_once(DIR_TEMPLATE . $template . "/menu/menu.php"); ?>
 		</div>
 		<?php } ?>
 		

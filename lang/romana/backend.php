@@ -28,6 +28,8 @@ define('EXISTING_ATRIBUTES', 'Vezi categoriile existente: <p class="obs">* Daca 
 define('PRODUCT_BUTON', 'Adauga produs');
 define('PRODUCT_GROUP_BUTON', 'Adauga grup produse');
 define('ATRIBUTE_BUTON', 'Adauga atribut');
+define('PRODUCT_DETAIL_BUTTON', 'Detalii');
+define('ADD_TO_CART_BUTTON', 'Adauga in cos');
 
 define('ERROR_ADDING_ATRIBUTE', 'Nu s-a putut adauga atributul. Posibil ca atributul sa existe deja!');
 define('ERROR_ADDING_PROD_GROUP', 'Nu s-a putut adauga grupul de produse.');
@@ -70,6 +72,7 @@ define('TITLE_ALL_USERS', 'Toti utilizatorii inregistrati');
 define('TITLE_PROMO', 'Produse promotionale');
 define('TITLE_LATEST', 'Ultimele produse adaugate');
 define('TITLE_PRODUCT_DESCRIPTION', 'Descriere produs');
+define('TITLE_ACCOUNT', ' | Pagina personala');
 
 
 define('NO_IMAGE', 'Imaginea nu este valabila');
@@ -87,6 +90,10 @@ define('SALUT', 'Salutare ');
 define('CATALOG_LINK', 'Poti cauta produsul in catalogul nostru ');
 define('PROMOTIONAL_PRODUCTS_BROWSE', 'Sau poti alege unul dintre produsele noastre promotionale de mai jos:');
 
+//~ User data
+define('USER', 'Nume user ');
+define('PASS', 'Parola ');
+define('ACCOUNT_ACTIVATION', 'Activare cont ');
 
 
 

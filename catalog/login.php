@@ -33,10 +33,12 @@ if (empty($_POST) === false) {
 <!--
 Include html header
 -->
-<?php $title = TITLE_LOGIN; include 'includes/header.php' ?>
+<?php $title = TITLE_LOGIN; ?>
+<?php require_once(DIR_TEMPLATE . $template . "/layout/header.php"); ?>
+
 <body>	
 	<div id="container">
-	<?php include 'includes/menu/menu.php'; ?>
+	<?php require_once(DIR_TEMPLATE . $template . "/menu/menu.php"); ?>
 
 		<h1>Login</h1>
 
@@ -47,9 +49,9 @@ Include html header
 		?>
 
 		<form method="post" action="">
-			<h4>Username:</h4>
+			<h4><?=USER?></h4>
 			<input type="text" name="username" value="<?php if(isset($_POST['username'])) echo htmlentities($_POST['username']); ?>" />
-			<h4>Password:</h4>
+			<h4><?=PASS?></h4>
 			<input type="password" name="password" />
 			<br>
 			<input type="submit" name="submit" />
